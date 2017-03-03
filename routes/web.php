@@ -15,5 +15,4 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/export
-', 'export@index');
+Route::get('/export', 'export@index');
